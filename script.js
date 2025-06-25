@@ -1,4 +1,4 @@
-emailjs.init("w99diNtp97EdSRwaM");  // Your public key
+emailjs.init("hV7o0Q6dJRpTJ7SU5");  // Your public key
 
 const panicBtn = document.getElementById("panicBtn");
 const statusDiv = document.getElementById("status");

@@ -1,4 +1,4 @@
-emailjs.init("hV7o0Q6dJRpTJ7SU5");  // Your public key
+emailjs.init("dQ63YqFUuZUeq_t6A");  // Your public key
 
 const panicBtn = document.getElementById("panicBtn");
 const statusDiv = document.getElementById("status");
@@ -29,7 +29,7 @@ function sendAlert(lat, lon) {
     message: `🚨 Emergency Alert!\nLocation: ${locationLink}`
   };
 
-  emailjs.send("service_uscbvmy", "template_m71p24m", templateParams)
+  emailjs.send("service_uscbvmy", "template_vc4uxuj", templateParams)
     .then(res => {
       alert(`📨 Alert sent to ${recipient}`);
     })

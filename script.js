@@ -29,7 +29,7 @@ function sendAlert(lat, lon) {
     message: `🚨 Emergency Alert!\nLocation: ${locationLink}`
   };
 
-  emailjs.send("service_uscbvmy", "template_vc4uxuj", templateParams)
+  emailjs.send("service_uscbvmy", "template_m71p24m", templateParams)
     .then(res => {
       alert(`📨 Alert sent to ${recipient}`);
     })
